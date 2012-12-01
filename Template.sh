@@ -1,6 +1,6 @@
 #!/bin/bash
 # 		宣告執行 script 程式用的殼程式(shell)
-####################################################
+################## Header block ##################
 # Script 程式名稱 | Script Name
 # 		template.sh
 # 著作權宣告 | Copyright Declaration
@@ -17,7 +17,17 @@
 # 修訂紀錄 | Changelog
 # 		Changelog is now on GitHub
 # 	
-###################################################
+############## Header block ended ##############
 
-# 正常結束 script 程式
+######## Included files ########
+
+######## Included files ended ########
+
+######## File scope variable definitions ########
+
+######## File scope variable definitions ended ########
+
+######## Program ########
+## 正常結束 script 程式
 exit 0
+######## Program ended ########
