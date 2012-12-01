@@ -1,7 +1,7 @@
 #!/bin/bash
-# 		宣告執行script用的shell
+# 		宣告執行 script 用的 shell
 ####################################################
-# Script程式名稱 | Script Name
+# Script 程式名稱 | Script Name
 # 		template.sh
 # 著作權宣告 | Copyright Declaration
 # 		Ｖ字龍(Vdragon) <pika1021@gmail.com> (c) 2012
@@ -19,5 +19,5 @@
 # 	
 ###################################################
 
-# 正常結束script程式
+# 正常結束 script 程式
 exit 0
