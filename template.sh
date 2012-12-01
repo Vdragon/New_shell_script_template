@@ -1,5 +1,5 @@
 #!/bin/bash
-# 		宣告執行 script 用的殼程式(shell)
+# 		宣告執行 script 程式用的殼程式(shell)
 ####################################################
 # Script 程式名稱 | Script Name
 # 		template.sh
