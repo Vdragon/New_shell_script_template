@@ -38,6 +38,14 @@ readonly PROGRAM_ARGUMENT_LIST="$@"
 ######## File scope variable definitions ended ########
 
 ######## Program ########
-## 正常結束 script 程式
-exit 0
+
+
+# main function, program entry point
+# idea from http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
+main() {
+
+	## 正常結束 script 程式
+	exit 0
+}
+main
 ######## Program ended ########
