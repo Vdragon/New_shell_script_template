@@ -33,7 +33,7 @@
 # idea from http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 readonly PROGRAM_NAME="$(basename $0)"
 readonly PROGRAM_DIRECTORY="$(readlink -m $(dirname $0))"
-readonly PROGRAM_ARGUMENT_LIST="$@"
+readonly PROGRAM_ARGUMENT_ORIGINAL_LIST="$@"
 readonly PROGRAM_ARGUMENT_ORIGINAL_NUMBER=$#
 
 ######## File scope variable definitions ended ########
