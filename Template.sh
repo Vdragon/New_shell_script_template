@@ -34,6 +34,7 @@
 readonly PROGRAM_NAME="$(basename $0)"
 readonly PROGRAM_DIRECTORY="$(readlink -m $(dirname $0))"
 readonly PROGRAM_ARGUMENT_LIST="$@"
+readonly PROGRAM_ARGUMENT_ORIGINAL_NUMBER=$#
 
 ######## File scope variable definitions ended ########
 
