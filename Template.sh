@@ -43,10 +43,13 @@ readonly PROGRAM_ARGUMENT_ORIGINAL_NUMBER=$#
 main() {
 	## 啟用除錯模式
 	set -x
-	## 正常結束 script 程式
-	exit 0
+
+
 	## 停用除錯模式
 	set +x
+
+	## 正常結束 script 程式
+	exit 0
 }
 main
 ######## Program ended ########
